@@ -37,7 +37,7 @@
   [![Gem Version][badge-gem]][gem]&nbsp;
   [![Open in Dev Containers][badge-open-container]][open-container]
 
-  [**실제 작동중인 데모 사이트** →][demo]
+  [**실제 작동중인 데모 사이트**(ctrl+클릭) →][demo]
 
   [![Devices Mockup](https://chirpy-img.netlify.app/commons/devices-mockup.png)][demo]
 
