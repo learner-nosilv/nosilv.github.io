@@ -6,14 +6,13 @@
 - 내가 사용한 리눅스 문법 정리
 - 내가 사용할 마크다운 문법 정리
 
-## Table of Contents
-- [Nosilv blog memo](#nosilv-blog-memo)
-  - [Table of Contents](#table-of-contents)
-  - [Blog Structure](#blog-structure)
-  - [Linux memo](#linux-memo)
+## 1. Table of Contents
+- [1. Table of Contents](#1-table-of-contents)
+- [2. Blog Structure](#2-blog-structure)
+- [3. Linux memo](#3-linux-memo)
 
 
-## Blog Structure
+## 2. Blog Structure
 Jekyll 엔진 위에 Chirpy 테마를 씌운 GitHub 블로그
 
 - `Jekyll` : **Markdown →  Static site**  
@@ -44,4 +43,4 @@ Markdown.md
 ```
 
 
-## Linux memo
+## 3. Linux memo
