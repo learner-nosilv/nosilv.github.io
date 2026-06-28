@@ -1,14 +1,44 @@
 # GitHub Flavored Markdown (GFM) Cheat Sheet 
 
+- [요약본](#요약본)
+- [자세히](#자세히)
+- [1. Heading (제목)](#1-heading-제목)
+- [H2 ─ 굵게 \& 밑줄](#h2--굵게--밑줄)
+  - [H3 ─ 굵게](#h3--굵게)
+    - [H4 ─ 일반 본문의 볼드체와 동일하여 효용↓](#h4--일반-본문의-볼드체와-동일하여-효용)
+      - [H5 ─ 본문보다 작음](#h5--본문보다-작음)
+        - [H6 ─ 엷은 회색](#h6--엷은-회색)
+- [2. Text formatting](#2-text-formatting)
+- [3. List](#3-list)
+  - [1) Bullet list (Unordered list)](#1-bullet-list-unordered-list)
+  - [2) Numbered list (Ordered list)](#2-numbered-list-ordered-list)
+  - [3) Task list (GFM 추가 기능 ⭐)](#3-task-list-gfm-추가-기능-)
+- [4. Code block (핵심 중 핵심)](#4-code-block-핵심-중-핵심)
+- [5. Quote, Callout](#5-quote-callout)
+  - [1) Blockquote(기본 기능)](#1-blockquote기본-기능)
+  - [2) Callout(GFM 추가 기능⭐)](#2-calloutgfm-추가-기능)
+- [6. 링크 Link, 이미지 Image, 뱃지 Badge](#6-링크-link-이미지-image-뱃지-badge)
+  - [1) 링크 Link](#1-링크-link)
+  - [2) 이미지 Image, 뱃지 Badge](#2-이미지-image-뱃지-badge)
+  - [3) 링크가 있는 이미지 Image, 뱃지 Badge](#3-링크가-있는-이미지-image-뱃지-badge)
+- [7. 표 Table (GFM 추가 기능⭐)](#7-표-table-gfm-추가-기능)
+- [8. 구분선 Horizontal line](#8-구분선-horizontal-line)
+- [9. 접히는 블록 Collapsible section (GFM 추가 기능⭐)](#9-접히는-블록-collapsible-section-gfm-추가-기능)
+- [10. Emoji](#10-emoji)
+- [11. HTML 혼용 가능 ⭐](#11-html-혼용-가능-)
+- [12. 각주 Footnote](#12-각주-footnote)
+
+---
+
 > [!NOTE]
 > 요약본보다가 모르겠으면, 아래 읽어보기
 
-## 요약
+## 요약본
 
 1. Heading `#1~6`　`**굵** ` → **굵**　`*기울*` → *기울*　`~~취소~~` → ~~취소~~　구분선 `---`
 2. Code `` `code` ``　` ```언어명 ```  `
 3. 불렛:`-`　순서:`1.`　체크:`- [ ]`, `- [x]`
-4. Quote, Callout `>`　`> [!NOTE]`　`> [!TIP]`　`> [!IMPORTANT]`　`> [!WARNING]`　`> [!CAUTION]`
+4. Quote, Callout `>`　`> [!NOTE]ℹ️파`　`> [!TIP]💡초`　`> [!IMPORTANT]🗨️보`　`> [!WARNING]⚠️노`　`> [!CAUTION]🛑빨`
 5. Link, Image, Badge
     - Link: `[text](Link URL)`
     - Image: `![IMG alt](IMG URL)`
@@ -62,7 +92,7 @@ ABC[^1]가나다123
 ```
 
 ---
-
+## 자세히
 ## 1. Heading (제목)
 
 TOC(목차) 생성의 핵심이 되는 태그
