@@ -1,8 +1,9 @@
+<!-- markdownlint-disable-next-line -->
 > [!WARNING]
 > 이 문서는 공식 번역이 아닌, 스스로 작성한 한국어 번역본입니다.  
 > **원본**: [Chirpy Jekyll Theme README.md][chirpy-readme]  
-> **버전**: 2026년 5월 15일 커밋 기준 ([커밋 히스토리][chirpy-readme-commit-history])
-> 
+> **버전**: 2026년 5월 15일 커밋 기준 ([커밋 히스토리][chirpy-readme-commit-history])  
+>
 > This is an unofficial, self-translated Korean version.  
 > **Original**: [README.md][chirpy-readme] of [Chirpy Jekyll Theme][chirpy]  
 > **Version**: Based on the commit from May 15, 2026 ([commit history][chirpy-readme-commit-history])  
