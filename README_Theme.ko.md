@@ -20,18 +20,7 @@
 
 [^2]: **반응형 디자인(Responsive Design)**: 화면 크기에 **반응**하여 웹 페이지의 형태가 자동으로 조정되도록 하는 디자인 기법. 제대로 구현하면 다양한 환경에서 최적의 사용자 경험을 제공함. _(예) 가로가 1920px면 모든 요소 다 보이게 배치하고, 600px면 글만 보이게 하고 나머지는 다 접어두자_ 　[정보통신용어사전](https://terms.tta.or.kr/dictionary/dictionaryView.do?word_seq=054426-12)
 
-[^3]: **Jekyll (지킬, 지킬박사 이름에서 따옴)**: 정적 사이트 생성기　[내가 쓴 글:Markdown] → `변환기:Jekyll` → [정적웹사이트파일:HTML/CSS/JS/···] <br>
--파일의 행방: [GitHub에 저장] → [GitHub Pages가 배포] → [인터넷 브라우저가 받아서 그 기기에서 사이트 구현]<br>
--의의: Markdown파일은 원래 브라우저가 읽을 수 없음 → Jekyll이 브라우저가 읽을 수 있는 형태(HTML,···)로 바꿔줌<br>
-① 내가 **Markdown파일**을 **Jekyll**에게 먹이면<br>
-② **Jekyll**은 이 글 내용이 반영된 그리고 `내가 설정한 사이트 테마`가 적용된 HTML, CSS, JS 등의 **정적 웹사이트 파일 세트**를 만들어줌<br>
-③ 나는 이 파일 세트를 **GitHub**에 올림<br>
-④ 어느 날, 누군가 인터넷 브라우저에 내 사이트 URL을 입력하면<br>
-⑤ 그 브라우저가 GitHub Pages에게 내 사이트 파일을 요청함<br>
-⑥ 상시대기하던 정적 사이트 전용 호스팅 서비스 **GitHub Pages**는 그 브라우저에게 내 사이트 파일을 전달함<br>
-⑦ 브라우저는 내 사이트 파일을 읽고, 화면에 사이트를 실제 구현함
-
-
+[^3]: **Jekyll (지킬, 지킬박사 이름에서 따옴)**:SSG(A Static Site Generator) 정적 웹사이트 생성기 `① Markdown → HTML`, `② HTML + Theme → Static website` / ① 내가 Markdown으로 쓴 글을 HTML 로 변환 ① HTML로 쓰인 글들과 Theme을 합쳐 완성된 정적 웹 사이트 파일 생성
 
 
   [![CI][badge-ci]][ci]&nbsp;
